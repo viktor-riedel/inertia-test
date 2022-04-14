@@ -7,7 +7,8 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register')
+        'skills' => App\Models\Skill::all(),
+        'projects' => App\Models\Project::all()
     ]);
 });
 

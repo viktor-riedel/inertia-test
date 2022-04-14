@@ -1,13 +1,5 @@
 <template>
-
+    <section class="py-10 px-72">
+        <slot></slot>
+    </section>
 </template>
-
-<script>
-export default {
-    name: "Section"
-}
-</script>
-
-<style scoped>
-
-</style>
