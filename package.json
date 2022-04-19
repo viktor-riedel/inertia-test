@@ -26,7 +26,6 @@
         "vue-loader": "^17.0.0"
     },
     "dependencies": {
-        "@heroicons/vue": "^1.0.6",
         "ziggy-js": "^1.4.6"
     }
 }
